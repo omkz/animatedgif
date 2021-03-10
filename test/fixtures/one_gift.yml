@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://animatedgif.me/gifs/1971.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 Mar 2021 06:45:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da6c494f6d8b57f8000ff7d3ce40128e31615358741; expires=Fri, 09-Apr-21
+        06:45:41 GMT; path=/; domain=.animatedgif.me; HttpOnly; SameSite=Lax
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - 1e5f71b1-494b-4531-8b0d-b925f61f12f2
+      X-Download-Options:
+      - noopen
+      Etag:
+      - W/"b7783a7ce3839d51119fe43a9eb0a352"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Runtime:
+      - '0.006750'
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Phusion Passenger 6.0.7
+      Strict-Transport-Security:
+      - max-age=15768000
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Request-Id:
+      - '08bc7b6440000035ec9a0cb000000001'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=eeyqpwbRBEtnR%2FntjZ8CZt7zzLCbplfsVVvhWRIxkxe%2BcqW1rZKVjMSedJt1sm8mKXFEZMTyRRHeMK7LUSZ3WHBbJgz1UwUviTzIjbR6zw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"max_age":604800,"report_to":"cf-nel"}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 62da94e6cc8f35ec-LAX
+      Alt-Svc:
+      - h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1971,"user_id":45,"image_data":"{\"id\":\"2d18c061594ac6d9b6dffc73c98aba02.png\",\"storage\":\"store\",\"metadata\":{\"filename\":\"Untitled
+        drawing (1).png\",\"size\":26794,\"mime_type\":\"image/png\"}}","created_at":"2020-09-18T14:09:51.027Z","updated_at":"2020-09-18T14:09:51.071Z","url":"https://animatedgif.me/gifs/1971.json"}'
+  recorded_at: Wed, 10 Mar 2021 06:45:42 GMT
+recorded_with: VCR 6.0.0
